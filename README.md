@@ -1,6 +1,6 @@
 # OneLogin OpenId Connect with Spring Security 5
 
-This repo is a copy of the [https://github.com/onelogin/onelogin-oidc-java](onelogin-oidc-java) example application provided
+This repo is a copy of the [onelogin-oidc-java](https://github.com/onelogin/onelogin-oidc-java) example application provided
 by OneLogin, upgraded to use the new `Spring Security 5 OAuth 2.0` implementation. The version provided by OneLogin uses
 the old `Spring Security OAuth 2.x` implementation, which has been replaced in `Spring Security 5`.
 
@@ -16,7 +16,7 @@ the original example onelogin repo (namely, the index.html page and supporting s
    was particularly helpful. I'm posting this repo so there's at least one working example available online.
 
 ## Run Instructions
-1. Read [https://developers.onelogin.com/openid-connect/connect-to-onelogin](the instructions at onelogin.com) to create 
+1. Read [the instructions at onelogin.com](https://developers.onelogin.com/openid-connect/connect-to-onelogin) to create 
    an OpenID Connect application.
 2. Edit `application.yml` and plug in the details for the application you configured in step 1. 
 3. Start the server with `./gradlew bootRun`
