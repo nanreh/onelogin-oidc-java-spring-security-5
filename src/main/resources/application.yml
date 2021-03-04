@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+spring:
+  security:
+    oauth2:
+      client:
+        provider:
+          onelogin:
+            issuer-uri: https://your-subdomain.onelogin.com/oidc/2
+        registration:
+          onelogin:
+            client-id: your-client-id
+            client-secret: your-client-secret
+            scope: openid,profile,email
